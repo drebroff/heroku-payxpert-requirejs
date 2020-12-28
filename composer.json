@@ -1,0 +1,8 @@
+{
+  "require" : {
+    "payxpert/connect2pay": "^2.13"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}

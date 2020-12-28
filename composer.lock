@@ -1,0 +1,107 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d20f8be0f8087c95894a32728d1f3c07",
+    "packages": [
+        {
+            "name": "payxpert/connect2pay",
+            "version": "2.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PayXpert/connect2pay-php-client.git",
+                "reference": "57feac76b3e8cee73cadb41d33e1585f80c0ce45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PayXpert/connect2pay-php-client/zipball/57feac76b3e8cee73cadb41d33e1585f80c0ce45",
+                "reference": "57feac76b3e8cee73cadb41d33e1585f80c0ce45",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "php": ">= 5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PayXpert\\Connect2Pay\\": "src",
+                    "PayXpert\\Connect2Pay\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Payxpert Payment Page System client library",
+            "homepage": "https://github.com/PayXpert/connect2pay-php-client",
+            "keywords": [
+                "SEPA Direct Debit",
+                "bank transfer",
+                "credit card",
+                "payment"
+            ],
+            "time": "2020-03-18T17:02:31+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v187",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "9a4c8992a3f1ce3c887cd184920a1765d5b05b73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/9a4c8992a3f1ce3c887cd184920a1765d5b05b73",
+                "reference": "9a4c8992a3f1ce3c887cd184920a1765d5b05b73",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2020-12-09T14:17:53+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
