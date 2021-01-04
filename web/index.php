@@ -2,4 +2,4 @@
 
 require('../vendor/autoload.php');
 
-echo "Hello";
+echo "Hello2";
